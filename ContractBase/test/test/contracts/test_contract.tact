@@ -5,7 +5,7 @@ message Add {
     amount: Int as uint32;
 }
 
-contract GroupToken with Deployable {
+contract TestContract with Deployable {
     id: Int as uint32;
     counter: Int as uint32;
 
